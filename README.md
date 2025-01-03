@@ -1,2 +1,52 @@
 # changing_os
 The steps when changing operating system
+
+## General Steps
+1. Save Bookmarks
+2. Save passwords
+1. save authentication keys
+
+
+## List of main folders
+1. Documents
+2. Pictures
+3. Repo
+4. Videos
+
+## List of apps to reinstall
+Update and upgrade 
+##
+        sudo apt update && sudo apt upgrade -y
+        
+1. telegram (Downloaded file)
+libre
+##
+        sudo apt install libreoffice
+        
+1. vlc
+##
+        sudo snap install vlc
+        
+1. geany
+##
+        apt-get install geany
+1. obs
+##
+        sudo apt install obs-studio
+1. gimp
+##
+        sudo apt install gimp
+        
+1. transmisison
+##
+        sudo apt install transmission
+        
+1. chrome
+##
+        sudo apt install -y chromium-browser
+
+1. authenticator: download or appstore
+
+1. latex
+##
+        sudo apt-get install texlive-full
