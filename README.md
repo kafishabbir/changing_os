@@ -29,7 +29,7 @@ libre
         
 1. geany
 ##
-        apt-get install geany
+        sudo apt-get install geany
 1. obs
 ##
         sudo apt install obs-studio
