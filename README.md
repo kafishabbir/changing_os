@@ -15,9 +15,9 @@ Hit this, see some message, "reply yes"
 
 ## General Steps
 1. Save Bookmarks
-2. Save passwords
+1. Save passwords
 1. save authentication keys
-
+1. Copy all files
 
 ## List of main folders
 1. Documents
@@ -31,34 +31,34 @@ Update and upgrade
         sudo apt update && sudo apt upgrade -y
         
 1. telegram (Downloaded file)
-libre
+2. libre
 ##
         sudo apt install libreoffice
         
-1. vlc
+3. vlc
 ##
         sudo snap install vlc
         
-1. geany
+4. geany
 ##
         sudo apt-get install geany
-1. obs
+5. obs
 ##
         sudo apt install obs-studio
-1. gimp
+6. gimp
 ##
         sudo apt install gimp
         
-1. transmisison
+7. transmisison
 ##
         sudo apt install transmission
         
-1. chrome
+8. chrome
 ##
         sudo apt install -y chromium-browser
 
-1. authenticator: download or appstore
+9. authenticator: download or appstore
 
-1. latex
+10. latex
 ##
         sudo apt-get install texlive-full
