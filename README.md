@@ -1,5 +1,9 @@
-# changing_os
-The steps when changing operating system
+# Setup Github
+##
+        ssh-keygen -t ed25519 -C "your_email@example.com"
+
+        
+# The steps when changing operating system
 
 ## General Steps
 1. Save Bookmarks
