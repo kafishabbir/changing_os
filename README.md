@@ -29,7 +29,11 @@ Hit this, see some message, "reply yes"
 Update and upgrade 
 ##
         sudo apt update && sudo apt upgrade -y
-        
+
+GIT
+##
+sudo apt install git
+
 1. telegram (Downloaded file)
 2. libre
 ##
