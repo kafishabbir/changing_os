@@ -1,7 +1,15 @@
 # Setup Github
+In home launch this
 ##
         ssh-keygen -t ed25519 -C "your_email@example.com"
-
+        
+Print the contents of the public file
+##
+        cat .ssh/id_ed25519.pub
+        
+Hit this, see some message, "reply yes"    
+##
+        ssh -T git@github.com
         
 # The steps when changing operating system
 
