@@ -32,7 +32,11 @@ Update and upgrade
 
 GIT
 ##
-sudo apt install git
+        sudo apt install git
+
+MAKEFILE
+##
+        sudo apt install make 
 
 1. telegram (Downloaded file)
 2. libre
