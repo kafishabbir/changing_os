@@ -77,3 +77,6 @@ MAKEFILE
 10. latex
 ##
         sudo apt-get install texlive-full
+11. shotwell for cropping pic
+##
+        sudo snap install shotwell
