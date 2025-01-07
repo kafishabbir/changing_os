@@ -10,6 +10,13 @@ Print the contents of the public file
 Hit this, see some message, "reply yes"    
 ##
         ssh -T git@github.com
+
+##
+        git config --global user.email "you@example.com"
+
+##
+        git config --global user.name bluekafi
+
         
 # The steps when changing operating system
 
