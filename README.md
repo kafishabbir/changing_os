@@ -35,48 +35,84 @@ Hit this, see some message, "reply yes"
 ## List of apps to reinstall
 Update and upgrade 
 ##
-        sudo apt update && sudo apt upgrade -y
+	sudo apt update && sudo apt upgrade -y
 
 GIT
 ##
-        sudo apt install git
+	sudo apt install git
 
 MAKEFILE
 ##
-        sudo apt install make 
+	sudo apt install make 
 
 1. telegram (Downloaded file)
 2. libre
 ##
-        sudo apt install libreoffice
+	sudo apt install libreoffice
         
 3. vlc
 ##
-        sudo snap install vlc
+	sudo snap install vlc
         
 4. geany
 ##
-        sudo apt-get install geany
+	sudo apt-get install geany
 5. obs
 ##
-        sudo apt install obs-studio
+	sudo apt install obs-studio
 6. gimp
 ##
-        sudo apt install gimp
+	sudo apt install gimp
         
 7. transmisison
 ##
-        sudo apt install transmission
+	sudo apt install transmission
         
 8. chrome
 ##
-        sudo apt install -y chromium-browser
+	sudo apt install -y chromium-browser
 
 9. authenticator: download or appstore
 
 10. latex
 ##
         sudo apt-get install texlive-full
+        
 11. shotwell for cropping pic
 ##
         sudo snap install shotwell
+        
+        
+12. virtual environment 
+### Go to project directory
+##
+	cd my-python-project
+
+### Create the virtual env
+##
+	python3 -m venv venv
+
+### Activate it
+##
+	source venv/bin/activate
+
+### Install some packages
+##
+	pip install requests
+
+### Deactivate
+##
+	deactivate
+	
+### To see the requirements
+##
+	pip freeze > requirements.txt
+or
+##
+	pip freeze 
+	
+### Install from a list of requirements
+##
+	pip install -r requirements.txt
+
+
