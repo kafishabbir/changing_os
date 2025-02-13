@@ -1,33 +1,73 @@
-# virtual environment 
-## Go to project directory
-
-## Create the virtual env
+# Installations on a new os
 ##
-	python3 -m venv venv
-
-## Activate it
-##
-	source venv/bin/activate
-
-## Install some packages
-##
-	pip install requests
-
-## Deactivate
-##
-	deactivate
+	sudo apt update
 	
-## To see the requirements
 ##
-	pip freeze > requirements.txt
-or
-##
-	pip freeze 
+	sudo apt upgrade
 	
-## Install from a list of requirements
 ##
-	pip install -r requirements.txt
+	sudo apt install build-essential
 
+##
+	sudo apt install git
+	
+##
+	sudo apt install geany
+
+##
+	sudo apt install make 
+
+##
+	sudo apt install texlive-full
+	
+##
+	sudo apt install libreoffice
+
+##
+	sudo apt install vlc
+	
+##
+	sudo apt install chromium-browser
+	
+##
+	sudo apt install transmission
+	
+##
+	sudo apt install obs-studio
+
+##
+	sudo apt install gimp
+	
+##
+	sudo apt install shotwell
+	
+##
+	sudo apt install usb-creator-gtk
+
+## Github
+##
+	ssh-keygen -t ed25519 -C kafiulshabbir@phystech.edu
+	
+##
+    cat .ssh/id_ed25519.pub
+
+##
+	git config --global user.email kafiulshabbir@phystech.edu
+
+##
+	git config --global user.name kafishabbir
+	
+
+## telegram
+	Download from site and run it
+
+## update system
+## update appstore
+
+## Authenticator
+Install from app center
+
+## Import bookmarks on firefox and log in everywhere
 
 
 
@@ -45,98 +85,33 @@ or
 4. Videos
 
 
+# Instructions
+## virtual environment 
+Go to project directory
 
-
-# Urgent Installations
-## Update package
+Create the virtual env
 ##
-	sudo apt update && sudo apt upgrade -y
+	python3 -m venv venv
 
-
-## geany
-appstore or:
+Activate it
 ##
-	sudo apt-get install geany
+	source venv/bin/activate
 
-
-## Authenticator
-Install from app center
-Install all the keys
-
-
-## Firefox
-1. Update from app center 
-2. Restore bookmarks
-3. Restore passwords
-4. Login everywhere
-
-
-## Github
-
+Install some packages
 ##
-	sudo apt install git
+	pip install requests
 
+Deactivate
 ##
-	ssh-keygen -t ed25519 -C email
+	deactivate
 	
+To see the requirements
 ##
-    cat .ssh/id_ed25519.pub
-
+	pip freeze > requirements.txt
+or
 ##
-	git config --global user.email email
-
-##
-	git config --global user.name kafishabbir
-
-
-## MAKEFILE
-##
-	sudo apt install make 
-
-## latex
-##
-	sudo apt-get install texlive-full
+	pip freeze 
 	
-	
-## telegram
-	Download and run or app store
-
-
-## chrome
+Install from a list of requirements
 ##
-	sudo apt install -y chromium-browser
-	
-		
-## vlc
-##
-	sudo snap install vlc
-	
-
-## obs
-##
-	sudo apt install obs-studio
-
-
-## gimp
-##
-	sudo apt install gimp
-	
-	
-
-
-
-
-# Installation in case light apps	
-## Shotwell
-##
-	sudo snap install shotwell
-	
-## transmisison
-##
-	sudo apt install transmission
-
-## libre
-##
-	sudo apt install libreoffice
-
-
+	pip install -r requirements.txt
